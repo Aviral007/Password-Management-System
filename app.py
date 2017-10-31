@@ -86,7 +86,7 @@ class app:
 		f.write(name+"\n")
 		f.write(pas+"\n\n")
 		f.close()
-		messagebox.showinfo("Cogratulations!!","New Record Added Successfully!!")
+		messagebox.showinfo("Cogratulations!!","New Record Added Successfully in database!!")
 
 	def newPass(user):
 		wn=tk.Tk()
